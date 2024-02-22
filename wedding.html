@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tammana's Wedding Invitation</title>
+    <link rel="icon" type="image/x-icon" href="fav.png">
+    
+</head>
+
+<style>
+    .deco img{
+        position: absolute;
+        z-index: 1;
+        width: 65%;
+            }
+
+    body{
+        background: linear-gradient(
+    white,
+    rgb(39, 152, 208),
+    rgb(248, 197, 197),
+    rgb(151, 206, 226)
+  );
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+
+}
+
+@keyframes example {
+        from {
+          opacity: 0;
+          transform: translateX(-100px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }  
+
+  }
+  @keyframes example2 {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }  
+
+}
+
+
+    .names{
+
+        font-family: "Dancing Script", cursive;
+        width: 80%;
+        height: auto;
+        border: 3px solid black;
+        border-radius: 10px;
+        border-top-left-radius: none;
+        border-top-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+
+
+    }
+    header{
+        margin-top: 10px;
+        font-style: italic;
+        padding: 40px;
+
+    }
+    header h1,p{
+        animation: example2 5s ease-out;
+
+    }
+    #groom{
+        animation: example 5s ease-out;
+
+    }
+    header img{
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    #details{
+        padding: 10px;
+        opacity: inherit;
+        animation: example 1s ease-out;
+
+    }
+    .sideheadings{
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
+        animation: example 5s ease-out;
+
+
+    }
+    #details h2{
+        text-decoration: underline;
+
+    }
+
+    .map a{
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color:azure;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        animation: example 3s ease-out;
+
+    }
+    #details a{
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color:azure;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        animation: example 3s ease-out;
+
+    }
+a:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+.names:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+.deco-bottom{
+   position:absolute;
+   bottom: 0;
+   right: 0;
+   width: 45%;
+}
+#Location img{
+    width: 50%;
+    padding: 10px;
+}
+#Location img:hover{
+    box-shadow: 2px 2px 10px black;
+}
+#contact{
+    animation: example 5s ease-out;
+
+}
+audio{
+    display: none;
+}
+</style>
+
+<body>
+
+<div class="deco">
+    <img src="deco.png" alt="" id="1st">
+</div>
+    <div class="Main" align="center">
+
+
+
+    <header>
+        <img src="a&b.jpg" alt="">
+        <h1>Archana</h1> <h1 id="groom"style="color: red;">&</h1> <h1 >Madhukar</h1>
+        <h2 id="groom">Are Getting Married</h2>
+        <p>Join us as we celebrate our love</p>
+    </header>
+    
+<div class="names" align="center">
+
+
+    <section id="details">
+        <h2>Event Details</h2>
+        <p><span class="sideheadings">Date:</span> Friday , March 15, 2024</p>
+        <p><span class="sideheadings">Time:</span> 09:54 PM</p>
+        <p><span class="sideheadings"> Venue:</span> Subham Convention , </p>
+        <p>Opp, Railway Station, Machilipatnam.</p>
+
+        <a href="https://drive.google.com/file/d/18YjLSX-8U98i7FfvZ0_QweTrKtBxsTU2/view?usp=drive_link" download="Archana Weds Madhukar" target="_blank">Download The Invitation Card</a>
+
+    </section>
+    <section id="details">
+        <h2>Dinner</h2>
+        <p>On Friday, March 15 <sup>th</sup>, 2024</p>
+        <p>From 8:00 PM Onwards.</p>
+    </section>
+</div>
+<p>Can't wait to celebrate auspicious moment of our family with you! </p>
+<h3>How Do I Get There ?</h3>
+
+<div class="map">
+    <a href="https://maps.app.goo.gl/6Yn8Pe5GwVaHbNKj9" target="_blank">Click Me to See The Venue</a>
+</div> 
+
+<br>
+
+Or 
+<br>
+scan the below QR! <br>
+or click on the below QR!
+
+<br>
+
+<a href="https://maps.app.goo.gl/6Yn8Pe5GwVaHbNKj9" id="Location" target="_blank">
+<img src="Location.jpg" alt="location"></a>
+<p>
+    With the divine grace of the almighty,
+    I cordially invite you and your family to
+    my elder brother's wedding
+    I'd eagerly await your kind presence in auspicious occasion of my family.
+</p>
+<p id="contact">
+   <b>Ping Me For any Queries ?</b> +91 9963132098
+   <audio autoplay loop controls>
+    <source src="bgm.wav" type="audio/wav">
+</audio>
+
+</p>
+</div>
+</body>
+</html>
